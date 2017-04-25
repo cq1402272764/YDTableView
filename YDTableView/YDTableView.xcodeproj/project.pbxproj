@@ -24,6 +24,7 @@
 		003EBEF31EAE05A10069C1D1 /* YDBaseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 003EBEF21EAE05A10069C1D1 /* YDBaseDataModel.m */; };
 		003EBEF91EAE06170069C1D1 /* YDBaseTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 003EBEF81EAE06170069C1D1 /* YDBaseTableVC.m */; };
 		003EBEFC1EAE07430069C1D1 /* text1.m in Sources */ = {isa = PBXBuildFile; fileRef = 003EBEFB1EAE07430069C1D1 /* text1.m */; };
+		003EBEFE1EAEFA090069C1D1 /* YDBaseResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 003EBEFD1EAEFA090069C1D1 /* YDBaseResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		003EBEF81EAE06170069C1D1 /* YDBaseTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDBaseTableVC.m; sourceTree = "<group>"; };
 		003EBEFA1EAE07430069C1D1 /* text1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text1.h; sourceTree = "<group>"; };
 		003EBEFB1EAE07430069C1D1 /* text1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = text1.m; sourceTree = "<group>"; };
+		003EBEFD1EAEFA090069C1D1 /* YDBaseResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YDBaseResources.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 				003EBEE91EAE05220069C1D1 /* YDBaseDataItemLabelItem.m */,
 				003EBEEE1EAE05730069C1D1 /* YDBaseDataItemSwitchItem.h */,
 				003EBEEF1EAE05730069C1D1 /* YDBaseDataItemSwitchItem.m */,
+				003EBEFD1EAEFA090069C1D1 /* YDBaseResources.bundle */,
 			);
 			path = YDBaseTableView;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				003EBEBB1EAE04240069C1D1 /* LaunchScreen.storyboard in Resources */,
+				003EBEFE1EAEFA090069C1D1 /* YDBaseResources.bundle in Resources */,
 				003EBEB81EAE04240069C1D1 /* Assets.xcassets in Resources */,
 				003EBEB31EAE04240069C1D1 /* Main.storyboard in Resources */,
 			);
@@ -571,6 +575,7 @@
 				003EBED71EAE04240069C1D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		003EBED81EAE04240069C1D1 /* Build configuration list for PBXNativeTarget "YDTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -579,6 +584,7 @@
 				003EBEDA1EAE04240069C1D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		003EBEDB1EAE04240069C1D1 /* Build configuration list for PBXNativeTarget "YDTableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -587,6 +593,7 @@
 				003EBEDD1EAE04240069C1D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

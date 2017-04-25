@@ -7,6 +7,8 @@
 //
 
 #import "text1.h"
+#import "YDBaseTableView.h"
+
 
 @interface text1 ()
 
@@ -14,13 +16,20 @@
 
 @implementation text1
 
-
+- (void)groud{
+    YDBaseDataItemModel *m1 = [YDBaseDataItemArrowItem itemWithTitle:@"item1"];
+    YDBaseDataItemModel *m2 = [YDBaseDataItemArrowItem itemWithTitle:@"item2"];
+    YDBaseDataItemModel *m3 = [YDBaseDataItemArrowItem itemWithTitle:@"item3"];
+    YDBaseDataItemModel *m4 = [YDBaseDataItemArrowItem itemWithTitle:@"item4"];
+    YDBaseDataItemModel *m5 = [YDBaseDataItemArrowItem itemWithTitle:@"item5"];
+    YDBaseDataModel *dataModel = [[YDBaseDataModel alloc] init];
+    dataModel.items = @[m1,m2,m3,m4,m5];
+    [self.yd_data addObject:dataModel];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self groud];
 }
-
-
 
 @end

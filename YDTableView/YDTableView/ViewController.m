@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "text1.h"
 
 @interface ViewController ()
 
@@ -21,7 +22,8 @@
 
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    
+    text1 *text = [[text1 alloc] init];
+    [self.navigationController pushViewController:text animated:YES];
 }
 
 @end
