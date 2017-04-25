@@ -25,6 +25,9 @@
 		003EBEF91EAE06170069C1D1 /* YDBaseTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 003EBEF81EAE06170069C1D1 /* YDBaseTableVC.m */; };
 		003EBEFC1EAE07430069C1D1 /* text1.m in Sources */ = {isa = PBXBuildFile; fileRef = 003EBEFB1EAE07430069C1D1 /* text1.m */; };
 		003EBEFE1EAEFA090069C1D1 /* YDBaseResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 003EBEFD1EAEFA090069C1D1 /* YDBaseResources.bundle */; };
+		003EBF011EAEFB4F0069C1D1 /* text2.m in Sources */ = {isa = PBXBuildFile; fileRef = 003EBF001EAEFB4F0069C1D1 /* text2.m */; };
+		003EBF071EAF1A6D0069C1D1 /* text2View.m in Sources */ = {isa = PBXBuildFile; fileRef = 003EBF061EAF1A6D0069C1D1 /* text2View.m */; };
+		003EBF091EAF1A7D0069C1D1 /* text2View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 003EBF081EAF1A7D0069C1D1 /* text2View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,11 @@
 		003EBEFA1EAE07430069C1D1 /* text1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text1.h; sourceTree = "<group>"; };
 		003EBEFB1EAE07430069C1D1 /* text1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = text1.m; sourceTree = "<group>"; };
 		003EBEFD1EAEFA090069C1D1 /* YDBaseResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YDBaseResources.bundle; sourceTree = "<group>"; };
+		003EBEFF1EAEFB4F0069C1D1 /* text2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text2.h; sourceTree = "<group>"; };
+		003EBF001EAEFB4F0069C1D1 /* text2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = text2.m; sourceTree = "<group>"; };
+		003EBF051EAF1A6D0069C1D1 /* text2View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text2View.h; sourceTree = "<group>"; };
+		003EBF061EAF1A6D0069C1D1 /* text2View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = text2View.m; sourceTree = "<group>"; };
+		003EBF081EAF1A7D0069C1D1 /* text2View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = text2View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +141,11 @@
 				003EBEDE1EAE04400069C1D1 /* YDBaseTableView */,
 				003EBEFA1EAE07430069C1D1 /* text1.h */,
 				003EBEFB1EAE07430069C1D1 /* text1.m */,
+				003EBEFF1EAEFB4F0069C1D1 /* text2.h */,
+				003EBF001EAEFB4F0069C1D1 /* text2.m */,
+				003EBF051EAF1A6D0069C1D1 /* text2View.h */,
+				003EBF061EAF1A6D0069C1D1 /* text2View.m */,
+				003EBF081EAF1A7D0069C1D1 /* text2View.xib */,
 				003EBEAB1EAE04240069C1D1 /* AppDelegate.h */,
 				003EBEAC1EAE04240069C1D1 /* AppDelegate.m */,
 				003EBEAE1EAE04240069C1D1 /* ViewController.h */,
@@ -306,6 +319,7 @@
 				003EBEFE1EAEFA090069C1D1 /* YDBaseResources.bundle in Resources */,
 				003EBEB81EAE04240069C1D1 /* Assets.xcassets in Resources */,
 				003EBEB31EAE04240069C1D1 /* Main.storyboard in Resources */,
+				003EBF091EAF1A7D0069C1D1 /* text2View.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				003EBF071EAF1A6D0069C1D1 /* text2View.m in Sources */,
 				003EBEFC1EAE07430069C1D1 /* text1.m in Sources */,
 				003EBEB61EAE04240069C1D1 /* YDTableView.xcdatamodeld in Sources */,
 				003EBEF31EAE05A10069C1D1 /* YDBaseDataModel.m in Sources */,
@@ -338,6 +353,7 @@
 				003EBEAD1EAE04240069C1D1 /* AppDelegate.m in Sources */,
 				003EBEE71EAE05000069C1D1 /* YDBaseDataItemArrowItem.m in Sources */,
 				003EBEF91EAE06170069C1D1 /* YDBaseTableVC.m in Sources */,
+				003EBF011EAEFB4F0069C1D1 /* text2.m in Sources */,
 				003EBEAA1EAE04240069C1D1 /* main.m in Sources */,
 				003EBEE41EAE04C10069C1D1 /* YDBaseCell.m in Sources */,
 				003EBEEA1EAE05220069C1D1 /* YDBaseDataItemLabelItem.m in Sources */,
