@@ -10,7 +10,7 @@
 
 @implementation text2View
 
-+(text2View *)instanceTextView{
++ (text2View *)instanceTextView{
     NSArray* nibView =  [[NSBundle mainBundle] loadNibNamed:@"text2View" owner:nil options:nil];
     return [nibView objectAtIndex:0];
 }
